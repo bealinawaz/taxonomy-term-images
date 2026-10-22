@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "taxonomy-term-images/term-image",
+	"version": "1.0.0",
+	"title": "Term Image",
+	"category": "theme",
+	"icon": "format-image",
+	"description": "Shows the image of the category, tag, or term being viewed. Add it to archive templates.",
+	"keywords": [ "category image", "taxonomy image", "term image", "thumbnail" ],
+	"textdomain": "taxonomy-term-images",
+	"attributes": {
+		"size": {
+			"type": "string",
+			"default": "large"
+		},
+		"linkToTerm": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [ "left", "center", "right", "wide", "full" ],
+		"spacing": {
+			"margin": true
+		}
+	},
+	"editorScript": "taxonomy-term-images-block"
+}

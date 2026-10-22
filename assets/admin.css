@@ -1,0 +1,48 @@
+.ttimg-field__preview img {
+	display: block;
+	max-width: 150px;
+	height: auto;
+	margin: 0 0 8px;
+	border: 1px solid #c3c4c7;
+	border-radius: 2px;
+}
+
+.ttimg-field__actions {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 12px;
+	margin: 0;
+}
+
+.term-ttimg-wrap .ttimg-label {
+	display: block;
+	margin-bottom: 4px;
+}
+
+.column-ttimg_image {
+	width: 56px;
+}
+
+.ttimg-column-image {
+	display: block;
+	width: 48px;
+	height: 48px;
+	object-fit: cover;
+	border-radius: 2px;
+}
+
+.ttimg-support {
+	max-width: 960px;
+	margin: 32px 0 0;
+	padding: 4px 20px 12px;
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-left: 4px solid #2271b1;
+}
+
+.ttimg-support__actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
